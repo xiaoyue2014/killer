@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>players</title>
+    <link rel="stylesheet" href="js/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="nav">
+    <a href="index.html">返回</a>
+</nav>
+<div class="container">
+    <div class="nav1 content">
+        <div class="title">玩家配比</div>
+        <div class="player-content">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">杀手4人</div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">平民8人</div>
+            </div>
+        </div>
+        <div class="palyer-setting">
+            <form class="">
+                <label>请输入玩家数量</label>
+                <input class="player-num" type="text">
+                <span class="small orange">玩家数量为4-18</span>
+            </form>
+        </div>
+        <button type="button" class="btn btn-give" data-toggle="modal" data-target="#myModal">去发牌</button>
+        <div class="page">
+            <a class="circle circle-on"></a>
+            <a class="circle"></a>
+            <a class="circle"></a>
+            <a class="circle"></a>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">请输入正确的玩家数</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">确认</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery/dist/jquery.min.js"></script>
+<script src="js/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
